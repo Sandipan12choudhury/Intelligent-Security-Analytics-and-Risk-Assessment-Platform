@@ -109,6 +109,7 @@ When a user requests AI analysis:
 
 # Folder Structure
 
+```
 intelligent-security-analytics/
 
 ├── backend/
@@ -120,7 +121,9 @@ intelligent-security-analytics/
 ├── README.md
 ├── requirements.txt
 └── LICENSE
+```
 
+---
 # Installation
 
 ## Clone Repository
