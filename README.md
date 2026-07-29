@@ -22,7 +22,7 @@ This project was developed as a B.Tech Major Project in Artificial Intelligence 
 
 ### Dashboard
 
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](dashboard.png)
 
 ### AI Analysis
 
