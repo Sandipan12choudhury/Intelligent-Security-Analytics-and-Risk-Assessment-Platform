@@ -22,11 +22,7 @@ This project was developed as a B.Tech Major Project in Artificial Intelligence 
 
 ![Dashboard](dashboard.png)
 
-### AI Analysis
 
-![AI Module](AI Module.png)
-
----
 
 # Key Features
 
