@@ -18,15 +18,13 @@ This project was developed as a B.Tech Major Project in Artificial Intelligence 
 
 ## Dashboard Preview
 
-> Replace these screenshots after uploading them to the repository.
-
 ### Dashboard
 
 ![Dashboard](dashboard.png)
 
 ### AI Analysis
 
-![AI Module](screenshots/ai-module.png)
+![AI Module](AI Analysis.png)
 
 ---
 
