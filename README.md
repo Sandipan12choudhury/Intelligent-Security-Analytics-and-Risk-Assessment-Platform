@@ -4,8 +4,6 @@ An AI-powered enterprise security analytics platform that streamlines security a
 
 > **Built using React, FastAPI, Gemini AI, Pandas, JWT Authentication, and SQLite**
 
----
-
 ## Overview
 
 Enterprise security assessments often generate thousands of security observations across multiple departments, applications, and review activities. Managing these observations manually using spreadsheets makes it difficult to perform consistent analytics, identify risk trends, generate reports, and derive meaningful insights.
@@ -49,38 +47,6 @@ This project was developed as a B.Tech Major Project in Artificial Intelligence 
 - Structured Observation Repository
 - REST API Architecture
 
----
-
-# Project Architecture
-
-The platform follows a modular client-server architecture.
-
-```
-React Frontend
-       │
-       ▼
-REST API Layer
-       │
-       ▼
-FastAPI Backend
-       │
- ┌───────────────┐
- │ Analytics     │
- │ AI Engine     │
- │ Authentication│
- └───────────────┘
-       │
-       ▼
-Dataset Management Layer
-       │
-       ▼
-Observation Repository
-       │
-       ▼
-Enterprise Analytics & AI Repository
-```
-
----
 
 ## Methodology
 
@@ -96,8 +62,6 @@ Security observations are collected during enterprise application reviews includ
 - Secure Network Architecture (SNA)
 - Data Flow Diagram Review (DFD)
 
----
-
 ### 2. Data Engineering
 
 The collected observations are converted into a standardized repository.
@@ -112,8 +76,6 @@ The Dataset Management Layer performs:
 - Grouping
 - Aggregation
 
----
-
 ### 3. Analytics Engine
 
 The Analytics Engine computes:
@@ -126,8 +88,6 @@ The Analytics Engine computes:
 - Deterministic Risk Scores
 - Dashboard KPIs
 
----
-
 ### 4. AI Analysis
 
 When a user requests AI analysis:
@@ -138,8 +98,6 @@ When a user requests AI analysis:
 - Recommendations are prepared.
 - A structured prompt is generated.
 - Gemini API generates detailed enterprise security recommendations.
-
----
 
 # Technology Stack
 
@@ -155,11 +113,8 @@ When a user requests AI analysis:
 | Charts | Recharts |
 | Document Generation | ReportLab, python-docx |
 
----
-
 # Folder Structure
 
-```
 intelligent-security-analytics/
 
 ├── backend/
@@ -171,9 +126,6 @@ intelligent-security-analytics/
 ├── README.md
 ├── requirements.txt
 └── LICENSE
-```
-
----
 
 # Installation
 
@@ -185,7 +137,6 @@ git clone https://github.com/<your-github-username>/intelligent-security-analyti
 cd intelligent-security-analytics
 ```
 
----
 
 ## Backend
 
@@ -204,7 +155,6 @@ pip install -r requirements.txt
 uvicorn app.main:app --reload
 ```
 
----
 
 ## Frontend
 
@@ -230,7 +180,6 @@ npm run dev
 | POST | /generate | AI Security Analysis |
 | GET | /reports | Report Generation |
 
----
 
 # Project Modules
 
@@ -240,7 +189,6 @@ npm run dev
 - Secure Login
 - Protected Routes
 
----
 
 ### Analytics Module
 
@@ -249,7 +197,6 @@ npm run dev
 - Severity Analytics
 - KPI Generation
 
----
 
 ### AI Module
 
@@ -258,15 +205,12 @@ npm run dev
 - Gemini Integration
 - AI Recommendation Generation
 
----
 
 ### Reporting Module
 
 - PDF Reports
 - DOCX Reports
 - Enterprise Summary Reports
-
----
 
 # Future Enhancements
 
@@ -283,7 +227,6 @@ Future versions of this platform may include:
 - Predictive Risk Analytics
 - Automated Security Compliance Monitoring
 
----
 
 # Author
 
@@ -295,13 +238,11 @@ Sikkim Manipal Institute of Technology
 
 GitHub: https://github.com/Sandipan12choudhury
 
----
 
 # License
 
 This project is licensed under the MIT License.
 
----
 
 ## Acknowledgements
 
