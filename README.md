@@ -129,9 +129,9 @@ intelligent-security-analytics/
 ## Clone Repository
 
 ```bash
-git clone https://github.com/<your-github-username>/Intelligent-Security-Analytics-and-Risk-Assessment-Platform.git
+git clone https://github.com/Sandipan12choudhury/Intelligent-Security-Analytics-and-Risk-Assessment-Platform.git
 
-cd intelligent-security-analytics
+cd Intelligent-Security-Analytics-and-Risk-Assessment-Platform
 ```
 
 
